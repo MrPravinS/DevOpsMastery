@@ -22,3 +22,7 @@ function greet(name){
 }
 
 greet()
+
+
+const sum = () =>  2 + 4;
+console.log(sum());
