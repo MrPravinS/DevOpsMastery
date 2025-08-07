@@ -39,6 +39,13 @@ function reverseInteger(n){
 console.log(reverseInteger(1234));
 
 
+function featE(){
+    console.log("New Feature added D");
+    
+}
+
+featE()
+
 
 const sum = () =>  2 + 4;
 console.log(sum());
