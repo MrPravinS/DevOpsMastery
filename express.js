@@ -24,5 +24,21 @@ function greet(name){
 greet()
 
 
+
+function reverseInteger(n){
+    let rev = 0
+
+    while(n > 0){
+        let lastdigit = n % 10;
+        rev = 10 * rev + lastdigit;
+        n = Math.floor(n/10)
+    }
+    return rev;
+}
+
+console.log(reverseInteger(1234));
+
+
+
 const sum = () =>  2 + 4;
 console.log(sum());
